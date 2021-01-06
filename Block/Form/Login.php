@@ -1,6 +1,6 @@
 <?php
 
-namespace Customer\Module\Block;
+namespace Customer\PhoneAuthentication\Block\Form;
 
 class Login extends \Magento\Framework\View\Element\Template
 {
@@ -23,7 +23,7 @@ class Login extends \Magento\Framework\View\Element\Template
      *
      * @return string
      */
-    public function getFormAction()
+    public function getFormActionUrl()
     {
         // companymodule is given in routes.xml
         // controller_name is folder name inside controller folder
