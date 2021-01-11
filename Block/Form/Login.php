@@ -29,7 +29,8 @@ class Login extends \Magento\Framework\View\Element\Template
         // controller_name is folder name inside controller folder
         // action is php file name inside above controller_name folder
 
-        return '/companymodule/controller_name/action';
+//        return '/companymodule/controller_name/action';
+        return $this->urlBuilder->getUrl('customer/account/loginPost');
         // here controller_name is index, action is booking
     }
 }
