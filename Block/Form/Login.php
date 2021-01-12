@@ -1,5 +1,4 @@
 <?php
-
 namespace Customer\PhoneAuthentication\Block\Form;
 
 class Login extends \Magento\Customer\Block\Form\Login
